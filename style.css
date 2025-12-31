@@ -1,4 +1,13 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;}
 body{background:#f7f9fc;color:#222;}
 
 .navbar{background:#0a2540;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;}
@@ -24,4 +33,5 @@ footer{background:#081b2f;color:white;text-align:center;padding:14px;font-size:1
 form{background:white;max-width:500px;margin:30px auto;padding:25px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.1);text-align:left;}
 input,textarea{width:100%;padding:12px;margin-top:6px;margin-bottom:14px;border:1px solid #ccc;border-radius:8px;}
 form button{width:100%;padding:12px;background:#0a2540;color:white;font-size:18px;border:none;border-radius:8px;font-weight:600;cursor:pointer;}
+
 form button:hover{background:#13315c;}
