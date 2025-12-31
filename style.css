@@ -2,11 +2,13 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   min-height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: auto !important;
   -webkit-overflow-scrolling: touch;
+  position: relative;
+}
 }*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;}
 body{background:#f7f9fc;color:#222;}
 
@@ -35,3 +37,4 @@ input,textarea{width:100%;padding:12px;margin-top:6px;margin-bottom:14px;border:
 form button{width:100%;padding:12px;background:#0a2540;color:white;font-size:18px;border:none;border-radius:8px;font-weight:600;cursor:pointer;}
 
 form button:hover{background:#13315c;}
+
